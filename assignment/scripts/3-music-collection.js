@@ -6,11 +6,13 @@ function addToCollection(collection, title, artist, yearPublished) {
   let newAlbum = {
     title: title,
     artist: artist,
-    yearPublished: yearPublished
+    yearPublished: yearPublished,
   };
   collection.push(newAlbum);
   return newAlbum;
 }
+let addedAlbum1 = addToCollection(myCollection, "The Melodic Blue", "Baby Keem", "2021");
+console.log(addedAlbum1);
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
