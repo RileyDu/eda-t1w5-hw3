@@ -13,6 +13,16 @@ function addToCollection(collection, title, artist, yearPublished) {
 }
 let addedAlbum1 = addToCollection(myCollection, "The Melodic Blue", "Baby Keem", "2021");
 console.log(addedAlbum1);
+let addedAlbum2 = addToCollection(myCollection, "The Melodic Blue", "Baby Keem", "2021");
+console.log(addedAlbum2);
+let addedAlbum3 = addToCollection(myCollection, "The Melodic Blue", "Baby Keem", "2021");
+console.log(addedAlbum3);
+let addedAlbum4 = addToCollection(myCollection, "The Melodic Blue", "Baby Keem", "2021");
+console.log(addedAlbum4);
+let addedAlbum5 = addToCollection(myCollection, "The Melodic Blue", "Baby Keem", "2021");
+console.log(addedAlbum5);
+let addedAlbum6 = addToCollection(myCollection, "The Melodic Blue", "Baby Keem", "2021");
+console.log(addedAlbum6);
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
