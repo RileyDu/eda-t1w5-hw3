@@ -8,6 +8,8 @@ function addToCollection(collection, title, artist, yearPublished) {
     artist: artist,
     yearPublished: yearPublished,
   };
+  collection.push();
+  return newAlbum;
 }
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
