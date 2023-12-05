@@ -6,9 +6,9 @@ function addToCollection(collection, title, artist, yearPublished) {
   let newAlbum = {
     title: title,
     artist: artist,
-    yearPublished: yearPublished,
+    yearPublished: yearPublished
   };
-  collection.push();
+  collection.push(newAlbum);
   return newAlbum;
 }
 
