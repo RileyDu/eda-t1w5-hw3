@@ -24,6 +24,15 @@ console.log(addedAlbum5);
 let addedAlbum6 = addToCollection(myCollection, "The Sun's Tirade", "Isaiah Rashad", "2016");
 console.log(addedAlbum6);
 
+function showCollection(collection){
+  for (let album of collection){
+    console.log(`${album.title} by ${album.artist}. Published in ${album.yearPublished}`)
+  }
+  return "Collection has been displayed"
+}
+
+showCollection(myCollection)
+
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
 // (It's used for automated testing.)
