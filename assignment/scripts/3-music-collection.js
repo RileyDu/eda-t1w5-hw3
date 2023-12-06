@@ -54,6 +54,7 @@ let addedAlbum6 = addToCollection(
 );
 console.log(addedAlbum6);
 
+
 function showCollection(collection) {
   for (let album of collection) {
     console.log(
@@ -75,9 +76,12 @@ function findByArtist(collection, artist) {
   return matchArray;
 }
 
-let artistCheck1 = "Baby Keem"
-let artistMatch1 = findByArtist(this.myCollection, artistCheck1)
+let artistCheck1 = "Baby Keem";
+let artistMatch1 = findByArtist(this.myCollection, artistCheck1);
 console.log(artistMatch1);
+let artistCheck2 = "Jack Harlow";
+let artistMatch2 = findByArtist(this.myCollection, artistCheck2);
+console.log(artistMatch2);
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
