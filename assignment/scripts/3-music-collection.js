@@ -53,7 +53,13 @@ let addedAlbum6 = addToCollection(
   "2016"
 );
 console.log(addedAlbum6);
-
+let addedAlbum7 = addToCollection(
+  myCollection,
+  "Greatest Hits",
+  "Red Hot Chili Peppers",
+  "2013"
+);
+console.log(addedAlbum7);
 
 function showCollection(collection) {
   for (let album of collection) {
@@ -82,7 +88,9 @@ console.log(artistMatch1);
 let artistCheck2 = "Jack Harlow";
 let artistMatch2 = findByArtist(this.myCollection, artistCheck2);
 console.log(artistMatch2);
-
+let artistCheck3 = "Red Hot Chili Peppers";
+let artistMatch3 = findByArtist(this.myCollection, artistCheck3)
+console.log(artistMatch3);
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
 // (It's used for automated testing.)
