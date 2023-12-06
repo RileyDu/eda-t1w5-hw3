@@ -75,6 +75,10 @@ function findByArtist(collection, artist) {
   return matchArray;
 }
 
+let artistCheck1 = "Baby Keem"
+let artistMatch1 = findByArtist(this.myCollection, artistCheck1)
+console.log(artistMatch1);
+
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
 // (It's used for automated testing.)
