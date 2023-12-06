@@ -11,27 +11,69 @@ function addToCollection(collection, title, artist, yearPublished) {
   collection.push(newAlbum);
   return newAlbum;
 }
-let addedAlbum1 = addToCollection(myCollection, "The Melodic Blue", "Baby Keem", "2021");
+let addedAlbum1 = addToCollection(
+  myCollection,
+  "The Melodic Blue",
+  "Baby Keem",
+  "2021"
+);
 console.log(addedAlbum1);
-let addedAlbum2 = addToCollection(myCollection, "Stadium Arcadium", "Red Hot Chili Peppers", "2006");
+let addedAlbum2 = addToCollection(
+  myCollection,
+  "Stadium Arcadium",
+  "Red Hot Chili Peppers",
+  "2006"
+);
 console.log(addedAlbum2);
-let addedAlbum3 = addToCollection(myCollection, "The Stranger", "Billy Joel", "1977");
+let addedAlbum3 = addToCollection(
+  myCollection,
+  "The Stranger",
+  "Billy Joel",
+  "1977"
+);
 console.log(addedAlbum3);
-let addedAlbum4 = addToCollection(myCollection, "Come Away with ESG", "ESG", "1983");
+let addedAlbum4 = addToCollection(
+  myCollection,
+  "Come Away with ESG",
+  "ESG",
+  "1983"
+);
 console.log(addedAlbum4);
-let addedAlbum5 = addToCollection(myCollection, "The Lonesome Crowded West", "Modest Mouse", "1997");
+let addedAlbum5 = addToCollection(
+  myCollection,
+  "The Lonesome Crowded West",
+  "Modest Mouse",
+  "1997"
+);
 console.log(addedAlbum5);
-let addedAlbum6 = addToCollection(myCollection, "The Sun's Tirade", "Isaiah Rashad", "2016");
+let addedAlbum6 = addToCollection(
+  myCollection,
+  "The Sun's Tirade",
+  "Isaiah Rashad",
+  "2016"
+);
 console.log(addedAlbum6);
 
-function showCollection(collection){
-  for (let album of collection){
-    console.log(`${album.title} by ${album.artist}. Published in ${album.yearPublished}`)
+function showCollection(collection) {
+  for (let album of collection) {
+    console.log(
+      `${album.title} by ${album.artist}. Published in ${album.yearPublished}`
+    );
   }
-  return "Collection has been displayed"
+  return "Collection has been displayed";
 }
 
-showCollection(myCollection)
+showCollection(myCollection);
+
+function findByArtist(collection, artist) {
+  let matchArray = [];
+  for (let album of collection) {
+    if (album.artist === artist) {
+      matchArray.push(album);
+    }
+  }
+  return matchArray;
+}
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
