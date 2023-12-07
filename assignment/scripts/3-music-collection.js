@@ -11,14 +11,14 @@ function addToCollection(collection, title, artist, yearPublished) {
   collection.push(newAlbum);
   return newAlbum;
 }
-let addedAlbum1 = addToCollection(
+const addedAlbum1 = addToCollection(
   myCollection,
   "The Melodic Blue",
   "Baby Keem",
   "2021"
 );
 console.log(addedAlbum1);
-let addedAlbum2 = addToCollection(
+const addedAlbum2 = addToCollection(
   myCollection,
   "Stadium Arcadium",
   "Red Hot Chili Peppers",
@@ -32,28 +32,28 @@ let addedAlbum3 = addToCollection(
   "1977"
 );
 console.log(addedAlbum3);
-let addedAlbum4 = addToCollection(
+const addedAlbum4 = addToCollection(
   myCollection,
   "Come Away with ESG",
   "ESG",
   "1983"
 );
 console.log(addedAlbum4);
-let addedAlbum5 = addToCollection(
+const addedAlbum5 = addToCollection(
   myCollection,
   "The Lonesome Crowded West",
   "Modest Mouse",
   "1997"
 );
 console.log(addedAlbum5);
-let addedAlbum6 = addToCollection(
+const addedAlbum6 = addToCollection(
   myCollection,
   "The Sun's Tirade",
   "Isaiah Rashad",
   "2016"
 );
 console.log(addedAlbum6);
-let addedAlbum7 = addToCollection(
+const addedAlbum7 = addToCollection(
   myCollection,
   "Greatest Hits",
   "Red Hot Chili Peppers",
