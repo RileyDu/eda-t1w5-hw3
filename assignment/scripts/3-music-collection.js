@@ -89,8 +89,11 @@ const artistCheck2 = "Jack Harlow";
 const artistMatch2 = findByArtist(this.myCollection, artistCheck2);
 console.log(artistMatch2);
 const artistCheck3 = "Red Hot Chili Peppers";
-const artistMatch3 = findByArtist(this.myCollection, artistCheck3)
+const artistMatch3 = findByArtist(this.myCollection, artistCheck3);
 console.log(artistMatch3);
+
+function search(collection, searchCollection)
+
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
 // (It's used for automated testing.)
