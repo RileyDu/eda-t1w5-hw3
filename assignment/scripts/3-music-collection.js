@@ -82,14 +82,14 @@ function findByArtist(collection, artist) {
   return matchArray;
 }
 
-let artistCheck1 = "Baby Keem";
-let artistMatch1 = findByArtist(this.myCollection, artistCheck1);
+const artistCheck1 = "Baby Keem";
+const artistMatch1 = findByArtist(this.myCollection, artistCheck1);
 console.log(artistMatch1);
-let artistCheck2 = "Jack Harlow";
-let artistMatch2 = findByArtist(this.myCollection, artistCheck2);
+const artistCheck2 = "Jack Harlow";
+const artistMatch2 = findByArtist(this.myCollection, artistCheck2);
 console.log(artistMatch2);
-let artistCheck3 = "Red Hot Chili Peppers";
-let artistMatch3 = findByArtist(this.myCollection, artistCheck3)
+const artistCheck3 = "Red Hot Chili Peppers";
+const artistMatch3 = findByArtist(this.myCollection, artistCheck3)
 console.log(artistMatch3);
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
