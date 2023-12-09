@@ -102,7 +102,7 @@ function search(collection, searchCriteria) {
       searchArray.push(entry);
     }
   }
-  return 
+  return searchArray;
 }
 
 searchObject1 = {
