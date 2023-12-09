@@ -93,6 +93,13 @@ const artistMatch3 = findByArtist(this.myCollection, artistCheck3);
 console.log(artistMatch3);
 
 function search(collection, searchCriteria) {
+  if (
+    !searchCriteria ||
+    !searchCriteria.artist ||
+    !searchCriteria.yearPublished
+  ) {
+    return collection;
+  }
   let searchArray = [];
   for (let entry of collection) {
     if (
