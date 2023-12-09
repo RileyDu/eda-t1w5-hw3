@@ -117,6 +117,14 @@ searchObject1 = {
   yearPublished: 1957,
 };
 
+function compareResults (expected, results){
+if (expected === results){
+  return '👍';
+} else {
+  return '👎';
+}
+}
+
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
 // (It's used for automated testing.)
