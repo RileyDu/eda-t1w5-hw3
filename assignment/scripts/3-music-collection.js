@@ -15,49 +15,49 @@ const addedAlbum1 = addToCollection(
   myCollection,
   "The Melodic Blue",
   "Baby Keem",
-  "2021"
+  2021
 );
 console.log(addedAlbum1);
 const addedAlbum2 = addToCollection(
   myCollection,
   "Stadium Arcadium",
   "Red Hot Chili Peppers",
-  "2006"
+  2006
 );
 console.log(addedAlbum2);
 let addedAlbum3 = addToCollection(
   myCollection,
   "The Stranger",
   "Billy Joel",
-  "1977"
+  1977
 );
 console.log(addedAlbum3);
 const addedAlbum4 = addToCollection(
   myCollection,
   "Come Away with ESG",
   "ESG",
-  "1983"
+  1983
 );
 console.log(addedAlbum4);
 const addedAlbum5 = addToCollection(
   myCollection,
   "The Lonesome Crowded West",
   "Modest Mouse",
-  "1997"
+  1997
 );
 console.log(addedAlbum5);
 const addedAlbum6 = addToCollection(
   myCollection,
   "The Sun's Tirade",
   "Isaiah Rashad",
-  "2016"
+  2016
 );
 console.log(addedAlbum6);
 const addedAlbum7 = addToCollection(
   myCollection,
   "Greatest Hits",
   "Red Hot Chili Peppers",
-  "2013"
+  2013
 );
 console.log(addedAlbum7);
 
