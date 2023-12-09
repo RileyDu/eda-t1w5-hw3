@@ -92,7 +92,14 @@ const artistCheck3 = "Red Hot Chili Peppers";
 const artistMatch3 = findByArtist(this.myCollection, artistCheck3);
 console.log(artistMatch3);
 
-function search(collection, searchCollection)
+function search(collection, searchCollection){
+
+  return matchArray 
+}
+searchObject1 ={
+  artist: 'Ray Charles',
+  yearPublished: 1957
+}
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
