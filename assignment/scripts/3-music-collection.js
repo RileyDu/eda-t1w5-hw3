@@ -112,14 +112,17 @@ function search(collection, searchCriteria) {
   return searchArray;
 }
 
+function compareResults(expected, results) {
+  return expected === results ? "👍" : "👎";
+}
+
 searchObject1 = {
   artist: "Ray Charles",
   yearPublished: 1957,
 };
 
-function compareResults (expected, results){
-return (expected === results) ? '👍' : '👎';
-}
+const result1 = search(myCollection,searchObject1)
+console.log(`Test 1. Should show my collection (result: ${searchObject1} ${compareResults(this.myCollection,result1)})`)
 
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
