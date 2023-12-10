@@ -116,7 +116,22 @@ searchObject1 = {
   artist: "Ray Charles",
   yearPublished: 1957,
 };
-search(myCollection, searchObject1);
+
+searchObject2 = {
+  artist: "Baby Keem",
+  yearPublished: 2021
+}
+
+searchObject3 = {
+// left empty to test function, wanting it to return the whole collection
+}
+
+find1 = search(myCollection, searchObject1);
+console.log(find1)
+find2 = search(myCollection, searchObject2);
+console.log(find2)
+find3 = search(myCollection,searchObject3);
+console.log(find3)
 // function compareResults(expected, results) {
 //   return expected === results ? "👍" : "👎";
 // }
