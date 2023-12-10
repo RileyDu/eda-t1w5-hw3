@@ -87,7 +87,10 @@ const artistMatch1 = findByArtist(myCollection, artistCheck1);
 console.log("Returns the one album by Baby Keem", artistMatch1);
 const artistCheck2 = "Jack Harlow";
 const artistMatch2 = findByArtist(myCollection, artistCheck2);
-console.log("Jack Harlow is not in the collection, return an empty array", artistMatch2);
+console.log(
+  "Jack Harlow is not in the collection, return an empty array",
+  artistMatch2
+);
 const artistCheck3 = "Red Hot Chili Peppers";
 const artistMatch3 = findByArtist(myCollection, artistCheck3);
 console.log("This should contain two albums by the Peppers", artistMatch3);
@@ -119,25 +122,28 @@ searchObject1 = {
 
 searchObject2 = {
   artist: "Baby Keem",
-  yearPublished: 2021
-}
+  yearPublished: 2021,
+};
 
 searchObject3 = {
-// left empty to test function, wanting it to return the whole collection
-}
+  // left empty to test function, wanting it to return the whole collection
+};
 
 find1 = search(myCollection, searchObject1);
-console.log('Ray Charles (1957) is not in my collectioin, should return an empty array',find1)
+console.log(
+  "Ray Charles (1957) is not in my collectioin, should return an empty array",
+  find1
+);
 find2 = search(myCollection, searchObject2);
-console.log('Baby Keem (2021) is in my collection, should be listed in the array',find2)
-find3 = search(myCollection,searchObject3);
-console.log('The search object is empty, mycollection listed in an array expected',find3)
-// function compareResults(expected, results) {
-//   return expected === results ? "👍" : "👎";
-// }
-
-// const result1 = search(myCollection,searchObject1)
-// console.log(`Test 1. Should show my collection (result: ${searchObject1} ${compareResults(this.myCollection,result1)})`)
+console.log(
+  "Baby Keem (2021) is in my collection, should be listed in the array",
+  find2
+);
+find3 = search(myCollection, searchObject3);
+console.log(
+  "The search object is empty, mycollection listed in an array expected",
+  find3
+);
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
