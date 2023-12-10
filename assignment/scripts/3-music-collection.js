@@ -83,14 +83,14 @@ function findByArtist(collection, artist) {
 }
 
 const artistCheck1 = "Baby Keem";
-const artistMatch1 = findByArtist(this.myCollection, artistCheck1);
-console.log(artistMatch1);
+const artistMatch1 = findByArtist(myCollection, artistCheck1);
+console.log("Returns the one album by Baby Keem", artistMatch1);
 const artistCheck2 = "Jack Harlow";
-const artistMatch2 = findByArtist(this.myCollection, artistCheck2);
-console.log(artistMatch2);
+const artistMatch2 = findByArtist(myCollection, artistCheck2);
+console.log("Jack Harlow is not in the collection, return an empty array", artistMatch2);
 const artistCheck3 = "Red Hot Chili Peppers";
-const artistMatch3 = findByArtist(this.myCollection, artistCheck3);
-console.log(artistMatch3);
+const artistMatch3 = findByArtist(myCollection, artistCheck3);
+console.log("This should contain two albums by the Peppers", artistMatch3);
 
 function search(collection, searchCriteria) {
   if (
@@ -115,15 +115,14 @@ function search(collection, searchCriteria) {
 searchObject1 = {
   artist: "Ray Charles",
   yearPublished: 1957,
-}; 
-
+};
+search(myCollection, searchObject1);
 // function compareResults(expected, results) {
 //   return expected === results ? "👍" : "👎";
 // }
 
 // const result1 = search(myCollection,searchObject1)
 // console.log(`Test 1. Should show my collection (result: ${searchObject1} ${compareResults(this.myCollection,result1)})`)
-
 
 // PLEASE DO NOT MODIFY THIS. Just leave it down here at the bottom. Think of it
 // as a lil' chunk of friendly code that you don't need to understand right now.
