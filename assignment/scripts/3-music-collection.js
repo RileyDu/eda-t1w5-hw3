@@ -131,17 +131,17 @@ searchObject3 = {
 
 find1 = search(myCollection, searchObject1);
 console.log(
-  "Ray Charles (1957) is not in my collectioin, should return an empty array",
+  "Ray Charles (1957) is not in myCollectioin, should return an empty array",
   find1
 );
 find2 = search(myCollection, searchObject2);
 console.log(
-  "Baby Keem (2021) is in my collection, should be listed in the array",
+  "Baby Keem (2021) is in myCollection, should be listed in the array",
   find2
 );
 find3 = search(myCollection, searchObject3);
 console.log(
-  "The search object is empty, mycollection listed in an array expected",
+  "The search object is empty, myCollection listed in an array expected",
   find3
 );
 
